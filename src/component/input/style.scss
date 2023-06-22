@@ -1,0 +1,59 @@
+.main1 {
+    max-width: 450px;
+    & .valid1 {
+        color: red;
+        margin-top: 20px;
+        font-size: 18px;
+        display: none;
+    }
+    & .valid2 {
+        color: red;
+        margin-top: 20px;
+        font-size: 18px;
+        display: none;
+    }
+    & .valid {
+        display: block !important;
+    }
+}
+
+.in1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+    & input {
+        margin-left: 50px;
+        width: 300px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        outline: none;
+        height: 30px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+}
+
+.in2 {
+    display: flex;
+    font-size: 20px;
+    & input {
+        width: 150px;
+        margin-left: 38px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        outline: none;
+        height: 30px;
+        font-size: 16px;
+    }
+    & button {
+        margin-left: 74px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #000;
+        color: azure;
+        cursor: pointer;
+    }
+}
